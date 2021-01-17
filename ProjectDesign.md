@@ -101,7 +101,7 @@ pip --default-timeout=100 install -U setuptools==51.1.2 -ihttp://pypi.douban.com
     }
 ~~~
 
-### III-4. Set python file default class implementing one super class, same of more as your wash
+### III-4. Set python file default class implementing one super class, same of more as your wish
 
 ~~~ json source code
     "CLASSONEIMPL": {
