@@ -78,7 +78,6 @@ pip --default-timeout=100 install -U setuptools==51.1.2 -ihttp://pypi.douban.com
             "    :return: ${7}",
             "    '''",
             "    pass$0",
-            "",
             ""
         ],
         "description": "Add default def custom function with one parameter."
@@ -96,7 +95,6 @@ pip --default-timeout=100 install -U setuptools==51.1.2 -ihttp://pypi.douban.com
             "    ${2:classDescription}",
             "    '''",
             "    pass$0",
-            "",
             ""
         ],
         "description": "Add no implementing other any object custom class."
@@ -115,10 +113,28 @@ pip --default-timeout=100 install -U setuptools==51.1.2 -ihttp://pypi.douban.com
             "    :implementing: ${2:superClass}",
             "    '''",
             "    pass$0",
-            "",
             ""
         ],
         "description": "Add one implementing other any object custom class."
+    }
+~~~
+
+### III-5. Set python file default class method with one parameter, same of more as your wish
+
+~~~ json source code
+    "1CDEF": {
+        "prefix": "1cdef",
+        "body": [
+            "def ${1:funcName}(self, ${2:parameterName}: ${3:parameterType}) -> ${4:returnType}:",
+            "    '''",
+            "    ${5:functionDescription}",
+            "    :param: ${2:parameterName}: ${6}",
+            "    :return: ${7}",
+            "    '''",
+            "    pass$0",
+            ""
+        ],
+        "description": "Add default def custom class method with one parameter."
     }
 ~~~
 
